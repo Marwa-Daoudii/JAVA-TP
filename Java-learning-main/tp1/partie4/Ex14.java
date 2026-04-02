@@ -5,6 +5,7 @@ public class Ex14 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Entrer une chaine: ");
         String ch = sc.nextLine();
+        sc.close();
         String inverse = "";
         for(int i = ch.length() - 1; i >= 0; i--) {
             inverse += ch.charAt(i);
