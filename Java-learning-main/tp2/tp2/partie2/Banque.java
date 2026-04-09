@@ -28,6 +28,7 @@ public class Banque {
  }
 
  public void afficherTous() {
+     System.out.println("Banque : " + nom);
      for (int i = 0; i < nbActuels; i++) {
          comptes[i].afficher();
      }
